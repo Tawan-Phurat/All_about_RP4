@@ -41,4 +41,18 @@
 <img src="https://github.com/Tawan-Phurat/All_about_RP4/blob/main/pics/ddnsconfig.png" alt="script of clientddns" style="height: 300px; width:300px;"/>
 
 
-### การทำให้ script ทำงานอัตโนมัติ
+### การทำให้ script ทำงาน
+
+เมื่อแก้ไขสคริปต์เสร็จแล้ว ให้ใช้คำสั่ง 
+
+            sudo systemctl start ddclient
+            
+และหากต้องการตรวจสอบสถานะของ ddclient ให้ใช้คำสั่ง
+
+            sudo systemctl status ddclient
+            
+การติดตั้งให้ ddclient ทำงานเองเมื่อมีการรีบูตเครื่อง ต้องสั่ง enable ดังต่อไปนี้
+
+            sudo systemctl enable ddclient
+            
+
