@@ -9,15 +9,16 @@
 โปรแกรม ddclient เป็นทางเลือกที่นำมาใช้กับ Raspberry 
 การติดตั้ง ddclient บน Raspberry ทำได้โดยใช้คำสั่ง
 
-  sudo apt update
-  sudo apt install ddclient
+      sudo apt update
+      sudo apt install ddclient
+      
 
 จากนั้นแก้ไขสคริปด้วยคำสั่ง
 
-   sudo nano /etc/ddclient.conf
+      sudo nano /etc/ddclient.conf
+
 
 แล้วใส่ข้อความดังนี้ 
-
 
 
       ssl=yes
