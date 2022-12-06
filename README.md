@@ -9,23 +9,23 @@
 โปรแกรม ddclient เป็นทางเลือกที่นำมาใช้กับ Raspberry 
 การติดตั้ง ddclient บน Raspberry ทำได้โดยใช้คำสั่ง
 
-sudo apt update
-sudo apt install ddclient
+  sudo apt update
+  sudo apt install ddclient
 
 จากนั้นแก้ไขสคริปด้วยคำสั่ง
 
-sudo nano /etc/ddclient.conf
+   sudo nano /etc/ddclient.conf
 
 แล้วใส่ข้อความดังนี้ 
 
 
 
-  ssl=yes
-  use=web, web=https://dynamicdns.park-your-domain.com/getip
-  protocol=googledomains
-  login=username
-  password=userpassword
-  hostname.domain.name
+   ssl=yes
+   use=web, web=https://dynamicdns.park-your-domain.com/getip
+   protocol=googledomains
+   login=username
+   password=userpassword
+   hostname.domain.name
 
 
 โดยที่ username และ password ได้มาจากผู้ให้บริการ dns
