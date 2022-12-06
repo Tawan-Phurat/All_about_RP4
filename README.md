@@ -20,12 +20,14 @@
 
 
 
-   ssl=yes
-   use=web, web=https://dynamicdns.park-your-domain.com/getip
-   protocol=googledomains
-   login=username
-   password=userpassword
-   hostname.domain.name
+      ssl=yes
+      use=web, web=https://dynamicdns.park-your-domain.com/getip
+      protocol=googledomains
+      login=username
+      password=userpassword
+      hostname.domain.name
+      
+
 
 
 โดยที่ username และ password ได้มาจากผู้ให้บริการ dns
