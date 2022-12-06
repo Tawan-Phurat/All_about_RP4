@@ -32,8 +32,12 @@
 
 
 โดยที่ username และ password ได้มาจากผู้ให้บริการ dns
+
 และ  hostname.domain.name คือชื่อโดเมนเนมที่เราจดทะเบียนไว้ เช่น www.example.com เป็นต้น
 
-
+ตัวอย่างการแก้ไขด้วยคำสั่ง sudo nano /etc/ddclient.conf
 
 <img src="https://github.com/Tawan-Phurat/All_about_RP4/blob/main/pics/ddnsconfig.png" alt="script of clientddns" style="height: 300px; width:300px;"/>
+
+
+### การทำให้ script ทำงานอัตโนมัติ
