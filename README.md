@@ -20,12 +20,13 @@ sudo nano /etc/ddclient.conf
 
 
 
-ssl=yes
-use=web, web=https://dynamicdns.park-your-domain.com/getip
-protocol=googledomains
-login=username
-password=userpassword
-hostname.domain.name
+  ssl=yes
+  use=web, web=https://dynamicdns.park-your-domain.com/getip
+  protocol=googledomains
+  login=username
+  password=userpassword
+  hostname.domain.name
+
 
 โดยที่ username และ password ได้มาจากผู้ให้บริการ dns
 และ  hostname.domain.name คือชื่อโดเมนเนมที่เราจดทะเบียนไว้ เช่น www.example.com เป็นต้น
